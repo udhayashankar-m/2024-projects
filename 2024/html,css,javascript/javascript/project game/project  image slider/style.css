@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: salmon;
+}
+
+.container{
+    width:60%;
+    min-height:80vh;
+    border:8px solid palegreen;
+    margin: 4rem auto;
+    border-radius: 10px;
+    background: url(./assests/image1.webp) no-repeat center;
+    background-size: contain;
+    background-position: fixed;
+    box-shadow: 0 0 20px 2px darkgreen;
+    position: relative;
+    cursor: pointer;
+}
+
+.btnLeft{
+    position: absolute;
+    left: -22px;
+    top: 50%;
+    transform: translateY(calc(-50%));
+    background-color: lightgreen;
+    padding:10px;
+    text-decoration: none;
+    color:darkblue;
+    cursor: pointer;
+    border-radius:100px;
+}
+.btnRight{
+    position: absolute;
+    border-radius:100px;
+    right: -22px;
+    top: 50%;
+    transform: translateY(calc(-50%));
+    background-color: lightgreen;
+    padding:10px;
+    text-decoration: none;
+    color:darkblue;   
+}

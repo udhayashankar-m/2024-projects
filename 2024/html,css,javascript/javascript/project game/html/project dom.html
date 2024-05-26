@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project DOM</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1 class="title">YouTube Subscribe Button</h1>
+    <button onclick="Subscribe()" class="js-subscribe-btn">Subscribe</button>
+    <br>
+    <div class="container">
+    <p class="sub-title">Rock Paper Scissors</p>
+    <a href="./projectRockpapperScissors.html" target="_blank" class="link">Click here</a>
+    <br>
+    <p class="notice">Amazon Shipping Calculator</p>
+    <p class="notice">order under $40 = +$10 shipping.</p>
+    <p class="notice">order over $40 = Free shipping.</p>
+    <form action="#" onsubmit="(e)=>e.preventDefault()">
+      <input class="inputvalue" type="number" placeholder="cost of order" onkeydown="handleCostKeydown(event)">
+      <input type="submit" value="Calculate" onclick="calculate()">
+    </form>
+    <p class="calculateTotal"></p>
+    </div>
+    <script src="../scripts/script.js"></script>
+    <noscript>This website need javascript so Please enable the javascript in your setting</noscript>
+</body>
+</html>
